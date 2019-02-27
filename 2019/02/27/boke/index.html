@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta name="generator" content="Hexo 3.8.0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="陈钊伟滴博客">
+    <meta name="keyword" content="深大">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>
+        
+        如何基于GitHub搭建一个个人博客？ - Davi_Chen的博客 | Davi_Chen&#39;s Blog
+        
+    </title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/aircloud.css">
+    <link rel="stylesheet" href="/css/gitment.css">
+    <!--<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">-->
+    <link href="//at.alicdn.com/t/font_620856_pl6z7sid89qkt9.css" rel="stylesheet" type="text/css">
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+<body>
+
+<div class="site-nav-toggle" id="site-nav-toggle">
+    <button>
+        <span class="btn-bar"></span>
+        <span class="btn-bar"></span>
+        <span class="btn-bar"></span>
+    </button>
+</div>
+
+<div class="index-about">
+    <i> good good code. </i>
+</div>
+
+<div class="index-container">
+    
+    <div class="index-left">
+        
+<div class="nav" id="nav">
+    <div class="avatar-name">
+        <div class="avatar">
+            <img src="/img/Jay Chou.jpg">
+        </div>
+        <div class="name">
+            <i>傻傻的陈钊伟</i>
+        </div>
+    </div>
+    <div class="contents" id="nav-content">
+        <ul>
+            <li>
+                <a href="/">
+                    <i class="iconfont icon-shouye1"></i>
+                    <span>主页</span>
+                </a>
+            </li>
+            <li>
+                <a href="/tags">
+                    <i class="iconfont icon-biaoqian1"></i>
+                    <span>标签</span>
+                </a>
+            </li>
+            <li>
+                <a href="/archives">
+                    <i class="iconfont icon-guidang2"></i>
+                    <span>存档</span>
+                </a>
+            </li>
+            <li>
+                <a href="/about/">
+                    <i class="iconfont icon-guanyu2"></i>
+                    <span>关于</span>
+                </a>
+            </li>
+            
+            <li>
+                <a id="search">
+                    <i class="iconfont icon-sousuo1"></i>
+                    <span>搜索</span>
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+    
+        <div id="toc" class="toc-article">
+    <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#个人的balabala"><span class="toc-text">个人的balabala</span></a></li></ol><li class="toc-item toc-level-2"><a class="toc-link" href="#正题正题！"><span class="toc-text">正题正题！</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#必要的软件安装过程"><span class="toc-text">必要的软件安装过程~</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#GitHub上必要的一些操作"><span class="toc-text">GitHub上必要的一些操作</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#本地仓库的搭建与配置"><span class="toc-text">本地仓库的搭建与配置</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#主题的选择与使用"><span class="toc-text">主题的选择与使用</span></a></li></ol>
+</li></div>
+    
+</div>
+
+
+<div class="search-field" id="search-field">
+    <div class="search-container">
+        <div class="search-input">
+            <span id="esc-search"> <i class="icon-fanhui iconfont"></i></span>
+            <input id="search-input">
+            <span id="begin-search">搜索</span>
+        </div>
+        <div class="search-result-container" id="search-result-container">
+
+        </div>
+    </div>
+</div>
+        <div class="index-about-mobile">
+            <i> good good code. </i>
+        </div>
+    </div>
+    
+    <div class="index-middle">
+        <!-- Main Content -->
+        
+
+
+<div class="post-container">
+    <div class="post-title">
+        如何基于GitHub搭建一个个人博客？
+    </div>
+
+    <div class="post-meta">
+        <span class="attr">发布于：<span>2019-02-27 00:00:00</span></span>
+        
+        
+        <span class="attr">访问：<span id="busuanzi_value_page_pv"></span>
+</span>
+
+    </div>
+    <div class="post-content ">
+        <h3 id="个人的balabala"><a href="#个人的balabala" class="headerlink" title="个人的balabala"></a>个人的balabala</h3><p>写这篇个人博客的任务本来应该在寒假就完成了，可是我的拖延症实在是太太太严重啦！懒癌晚期本人没错了~ 经过昨晚傻俊的提醒，痛定思痛，还是快点完成任务好哈哈哈。接下来就是正题了！</p>
+<h2 id="正题正题！"><a href="#正题正题！" class="headerlink" title="正题正题！"></a>正题正题！</h2><h3 id="必要的软件安装过程"><a href="#必要的软件安装过程" class="headerlink" title="必要的软件安装过程~"></a>必要的软件安装过程~</h3><ul>
+<li><p>安装Git(安装地址<a href="https://git-scm.com/" target="_blank" rel="noopener">点这里</a>）<br><img src="https://github.com/DaviCZW/DaviCZW.github.io/raw/master/img/Git_Home.png" alt=""></p>
+</li>
+<li><p>安装Node.js（安装地址同样<a href="https://nodejs.org/en/" target="_blank" rel="noopener">点这里</a>）</p>
+</li>
+</ul>
+<p>这是搭建个人博客的必要的两个软件，当我们完成安装过程后就可以继续下一步啦</p>
+<h3 id="GitHub上必要的一些操作"><a href="#GitHub上必要的一些操作" class="headerlink" title="GitHub上必要的一些操作"></a>GitHub上必要的一些操作</h3><p>因为这个个人博客是基于GitHub来搭建的，那理所当然的我们需要有一个GitHub账号，如果没有的话就需要去<a href="https://github.com/" target="_blank" rel="noopener">GitHub官网</a>）进行注册</p>
+<p>当我们拥有了自己的GitHub账号后，我们就可以进行以下的各种操作啦</p>
+<ul>
+<li><p>在GitHub的个人头像左边的加号上点击一下，并创建一个新仓库（New repository）<br><img src="https://github.com/DaviCZW/DaviCZW.github.io/raw/master/img/New_repository.png" alt=""></p>
+</li>
+<li><p>因为是个人网站，所以在仓库创建过程中需要遵守GitHub的网址命名规则，那就是（用户名+github.io）， 并且需要点击Public<br><img src="https://github.com/DaviCZW/DaviCZW.github.io/raw/master/img/Repository_Set.png" alt=""></p>
+</li>
+<li><p>当仓库创建完成后我们只需要在接下来跳转的页面点击——Change theme选择一个主题并在GitHub上托管我们的个人网站就可以啦，访问我们个人网站的方法是用如https://自己的用户名.github.io的网址去访问</p>
+</li>
+</ul>
+<h3 id="本地仓库的搭建与配置"><a href="#本地仓库的搭建与配置" class="headerlink" title="本地仓库的搭建与配置"></a>本地仓库的搭建与配置</h3><p>虽然我们经过以上的步骤拥有了一个自己的主题，但我想大家肯定不会满足于最开始选择的那个单调的主题，毕竟我们选择这么大费周章地创建一个个人博客就是为了个性化和自由度嘛。那么，主题的个性化肯定是一个不可以避过的话题。  </p>
+<ul>
+<li><p>克隆仓库以便进行本地的配置<br>还记得我们之前安装的Git吗？下载完它之后会有一个Git Bash的桌面应用，打开它，然后在本地创建一个属于个人博客的文件夹，比如我的是在D:/blog，进入该文件夹，再使用如下命令<br><img src="https://github.com/DaviCZW/DaviCZW.github.io/raw/master/img/Git_Bash.png" alt=""><br><code>$ git clone git@github.com:DaviCZW/DaviCZW.github.io.git</code></p>
+</li>
+<li><p>安装hexo<br>使用npm命令来安装hexo（该操作可以在个人博客文件夹下进行）</p>
+<figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ </span>npm install -g hexo-cli</span><br><span class="line"><span class="variable">$ </span>hexo init</span><br><span class="line"><span class="variable">$ </span>npm install</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>以上步骤完成后我们就可以在当前文件夹下使用Hexo的命令行，常用的有<br><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo generate (hexo g) 生成静态文件，会在当前目录下生成一个新的叫做public的文件夹</span><br><span class="line">hexo<span class="built_in"> server </span>(hexo s) 启动本地web服务，用于博客的预览</span><br><span class="line">hexo deploy (hexo d) 部署播客到远端（比如github, heroku等平台）</span><br></pre></td></tr></table></figure></p>
+<p>相信此时进行到这一步的你应该会兴冲冲地直接hexo g、hexo s、hexo d三部曲然后发现咦，为什么hexo d会出现莫名其妙地错误提示。这是因为有关键性的一步还没做，那就是在个人博客文件夹下的_config.yml文件（该文件内包含了我们个人博客网站的基本配置信息）进行如下设置<br><img src="https://github.com/DaviCZW/DaviCZW.github.io/raw/master/img/GitHub_Web.png" alt=""></p>
+<h3 id="主题的选择与使用"><a href="#主题的选择与使用" class="headerlink" title="主题的选择与使用"></a>主题的选择与使用</h3><ul>
+<li><p>有些时候经过以上步骤后还是无法远程把本地仓库同步到GitHub上，这是因为SSH的配置问题，因为篇幅有限（…太长了不想写qwq吗）在这里就放我之前搭建时看的<a href="https://blog.csdn.net/t822876884/article/details/60568700" target="_blank" rel="noopener">链接</a></p>
+</li>
+<li><p>选择自己心仪的主题<br>终于来到了激动人心的一幕！让我们进入<a href="https://hexo.io/themes/" target="_blank" rel="noopener">商场</a>逛一逛吧<br><img src="https://github.com/DaviCZW/DaviCZW.github.io/raw/master/img/Hexo_Theme.png" alt=""><br>在这个网站里我们可以选择自己心仪的主题，点击主题的图片会进入主题预览，而点击名字则会进入到该主题在GitHub项目。<br>我们先在Git Bash中进入到个人博客文件夹的中themes子目录，然后在该子目录下克隆主题的GitHub项目，接着只需要最后一步我们就可以运用该主题啦！那就是在个人博客文件夹的_config.yml文件（上文提过）里找到一个theme:的键对，在该键对的值里填写我们克隆下来的主题文件夹名称，比如我的是这样子的<br><img src="https://github.com/DaviCZW/DaviCZW.github.io/raw/master/img/theme.png" alt=""></p>
+</li>
+</ul>
+
+        
+        <br>
+        <div id="comment-container">
+        </div>
+        <div id="disqus_thread"></div>
+
+        <div id="lv-container">
+        </div>
+
+    </div>
+</div>
+    </div>
+</div>
+
+
+<footer class="footer">
+    <ul class="list-inline text-center">
+        
+        
+        <li>
+            <a target="_blank" href="https://www.zhihu.com/people/davichen">
+                            <span class="fa-stack fa-lg">
+                                 <i class="iconfont icon-zhihu"></i>
+                            </span>
+            </a>
+        </li>
+        
+
+        
+
+        
+
+        
+        <li>
+            <a target="_blank" href="https://github.com/DaviCZW">
+                            <span class="fa-stack fa-lg">
+                                <i class="iconfont icon-github"></i>
+                            </span>
+            </a>
+        </li>
+        
+
+        
+
+    </ul>
+    
+    <p>
+        <span id="busuanzi_container_site_pv">
+            <span id="busuanzi_value_site_pv"></span>PV
+        </span>
+        <span id="busuanzi_container_site_uv">
+            <span id="busuanzi_value_site_uv"></span>UV
+        </span>
+        Created By <a href="https://hexo.io/">Hexo</a>  Theme <a href="https://github.com/aircloud/hexo-theme-aircloud">AirCloud</a></p>
+</footer>
+
+
+
+
+</body>
+
+<script>
+    // We expose some of the variables needed by the front end
+    window.hexo_search_path = "search.json"
+    window.hexo_root = "/"
+    window.isPost = true
+</script>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<script src="/js/index.js"></script>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+</html>
